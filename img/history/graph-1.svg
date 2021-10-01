@@ -1,0 +1,37 @@
+<svg width="221" height="189" viewBox="0 0 221 189" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d)">
+<rect x="15" y="15" width="191" height="159" rx="8" fill="white"/>
+</g>
+<path d="M38 155H184" stroke="#C4C4C4"/>
+<path d="M38 147H184" stroke="#C4C4C4"/>
+<path d="M38 139H184" stroke="#C4C4C4"/>
+<path d="M38 131H184" stroke="#C4C4C4"/>
+<path d="M38 123H184" stroke="#C4C4C4"/>
+<path d="M38 115H184" stroke="#C4C4C4"/>
+<path d="M38 107H184" stroke="#C4C4C4"/>
+<path d="M38 99H184" stroke="#C4C4C4"/>
+<path d="M38 91H184" stroke="#C4C4C4"/>
+<path d="M38 83H184" stroke="#C4C4C4"/>
+<path d="M38 75H184" stroke="#C4C4C4"/>
+<path d="M38 67H184" stroke="#C4C4C4"/>
+<path d="M38 59H184" stroke="#C4C4C4"/>
+<path d="M38 51H184" stroke="#C4C4C4"/>
+<path d="M38 43H184" stroke="#C4C4C4"/>
+<path d="M38 35H184" stroke="#C4C4C4"/>
+<path d="M66 86L55 155H77L66 86Z" fill="#FEA02F"/>
+<path d="M88.5 47L100 155H77L88.5 47Z" fill="#007A7A"/>
+<path d="M121 155H100L110.161 120L121 155Z" fill="#003F5A"/>
+<path d="M131.625 55L122 155H144L131.625 55Z" fill="#DE6600"/>
+<path d="M153.414 109L144 155H165L153.414 109Z" fill="#6DB8BB"/>
+<defs>
+<filter id="filter0_d" x="3.05176e-05" y="0" width="221" height="189" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="7.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+</defs>
+</svg>
