@@ -50,5 +50,3 @@ new Swiper('.swiper', {
   simulateTouch: true,
   spaceBetween: 1,
 });
-
-
