@@ -165,7 +165,7 @@ ul.menu__list {
 .football-graph {
   position: absolute;
   top: 15%;
-  right: -7%;
+  right: 0;
   max-width: 191px;
   width: 90%;
 }

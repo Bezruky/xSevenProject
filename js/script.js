@@ -2,7 +2,6 @@
 let links = document.querySelectorAll('li>a[href^="#"]')
 
 links.forEach(link => {
-  console.log(link)
   link.addEventListener('click', event => {
     event.preventDefault()
 
@@ -53,3 +52,21 @@ new Swiper('.swiper', {
   simulateTouch: true,
   spaceBetween: 1,
 });
+
+
+// Parallax
+document.body.querySelector('.history__pictures').childNodes.forEach(child => {
+  if (child.nodeName !== '#text') {
+    child.classList.add('scene')
+  }
+})
+
+let parallax = document.querySelectorAll('.scene')
+
+parallax.forEach(elem => {
+  let parallaxInstance = new Parallax(elem, {
+    relativeInput: true
+  })
+  parallaxInstance.friction(0.1, 0.1)
+})
+
