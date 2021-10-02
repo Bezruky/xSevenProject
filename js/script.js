@@ -47,7 +47,8 @@ new Swiper('.swiper', {
   },
 
   loop: true,
-
+  simulateTouch: true,
+  spaceBetween: 1,
 });
 
 
