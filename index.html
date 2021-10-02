@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="css/style.css">
   <title>Yasima site</title>
 </head>
 <body>
@@ -477,16 +478,49 @@
         <div class="partners__content row">
           <div class="partners__info col">
             <div class="partners__title title">Ты можешь так же!</div>
-            <div class="partners__text text">Я поделился с тобой своей историей. Все в этом мире реально и достижимо! Очень благодарен, ребятам
-              из Rate code, которые с нуля реализовали мой проект. И кстати, по промокоду ______ ты можешь получить скидку __% и заказть у них проект под ключ,
-              чтобы воплотить свои мечты в реальность.</div>
+            <div class="partners__text text">Я поделился с тобой своей историей. Все в этом мире реально и достижимо!
+              Очень благодарен, ребятам
+              из Rate code, которые с нуля реализовали мой проект. И кстати, по промокоду ______ ты можешь получить
+              скидку __% и заказть у них проект под ключ,
+              чтобы воплотить свои мечты в реальность.
+            </div>
             <div class="partners__text text"><span>Создай свой инвестиционный проект для спорта
-с помощью ребят из Rote code!</span></div>
+  с помощью ребят из Rote code!</span></div>
             <div class="partners__button button">Хочу проект</div>
           </div>
           <div class="partners__slider col">
-            <div class="slider__text">Примеры работ Rate code:</div>
-            <div class="slider"></div>
+
+            <div class="slider__text text">Примеры работ Rate code:</div>
+
+            <div class="swiper">
+              <!-- Обязательная оболочка swiper-wrapper -->
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="swiper-slide__picture"><img src="img/partners/slide.png" alt=""></div>
+                  <div class="swiper-slide__text">Качественный и успешно отработавший проект. Нестандартный и яркий дизайн,
+                    а также адаптивная версия отлично справляются с основной задачей проекта.
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide__picture"><img src="img/partners/slide.png" alt=""></div>
+                  <div class="swiper-slide__text">Качественный и успешно отработавший проект. Нестандартный и яркий дизайн,
+                    а также адаптивная версия отлично справляются с основной задачей проекта.
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide__picture"><img src="img/partners/slide.png" alt=""></div>
+                  <div class="swiper-slide__text">Качественный и успешно отработавший проект. Нестандартный и яркий дизайн,
+                    а также адаптивная версия отлично справляются с основной задачей проекта.
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-pagination"></div>
+
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+
           </div>
         </div>
       </div>
@@ -516,6 +550,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
