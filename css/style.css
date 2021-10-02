@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
-/* font-family: 'Montserrat', sans-serif; */
 
 * {
   margin: 0;
@@ -29,11 +28,7 @@ li {
   margin: 0;
 }
 
-.wrapper {
-}
-
 body {
-  scroll-behavior: smooth;
   overflow-x: hidden;
 }
 
@@ -84,9 +79,6 @@ body {
 
 .header {
   position: relative;
-}
-
-.header__content {
 }
 
 .header__menu {
@@ -167,8 +159,6 @@ ul.menu__list {
   min-width: 300px;
   width: 100%;
   height: 392px;
-  /*border-radius: 8px;*/
-  /*filter: drop-shadow(0px 0px 12px rgba(0, 0, 0, 0.25));*/
   object-fit: cover;
 }
 
@@ -178,13 +168,6 @@ ul.menu__list {
   right: -7%;
   max-width: 191px;
   width: 90%;
-  /*margin-right: 10px;*/
-}
-
-.football-graph svg {
-  /*max-width: 191px;*/
-  /*width: 100%;*/
-  /*max-height: 159px;*/
 }
 
 .vectors {
@@ -333,9 +316,6 @@ ul.menu__list {
 .about__content {
   display: flex;
   align-items: center;
-}
-
-.about__photo {
 }
 
 .about__photo img {
@@ -578,9 +558,6 @@ ul.menu__list {
   align-items: center;
 }
 
-.having__picture {
-}
-
 .having__picture img {
   filter: drop-shadow(0px 0px 12px rgba(0, 0, 0, 0.25));
   border-radius: 50%;
@@ -616,8 +593,6 @@ ul.menu__list {
 .partners__content {
   display: flex;
   justify-content: space-between;
-
-  /* Для слайдера */
   min-width: 0;
 }
 
@@ -656,7 +631,6 @@ ul.menu__list {
   margin-bottom: 28px;
 }
 
-/* Swiper */
 .swiper {
   position: relative;
   max-width: 500px;

@@ -1,13 +1,16 @@
 // // Плавный переход якорей
-// $('a[href^="#"]').on('click', function (event) {
-//   event.preventDefault();
-//
-//   var target = $(this.hash);
-//   $('html, body').stop().animate({
-//     'scrollTop': target.offset().top
-//   }, 1000);
-// });
+let links = document.querySelectorAll('li>a[href^="#"]')
 
+links.forEach(link => {
+  console.log(link)
+  link.addEventListener('click', event => {
+    event.preventDefault()
+
+    const id = link.getAttribute('href')
+
+    document.querySelector(id).scrollIntoView({behavior: 'smooth'});
+  })
+})
 
 // Burger
 const burger = document.querySelector('.header__burger')
