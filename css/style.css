@@ -175,6 +175,7 @@ ul.menu__list {
   width: 100%;
   top: 0;
   left: 0;
+  pointer-events: none;
 }
 
 .vector__item-1 img {
@@ -544,18 +545,24 @@ ul.menu__list {
 }
 
 .changes__having {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   margin-bottom: 5rem;
   z-index: 4;
 }
 
 .having__text-main {
   font-size: 32px;
-  margin: 30px 0 50px 0;
+  margin: 30px 0 70px 0;
+  width: 85%;
 }
 
 .having__block {
   display: flex;
   align-items: center;
+  margin-top: -20px;
 }
 
 .having__picture img {
@@ -972,6 +979,7 @@ ul.menu__list {
 
   .having__text-main {
     font-size: 26px;
+    width: 100%;
   }
 
   .having__picture img {
